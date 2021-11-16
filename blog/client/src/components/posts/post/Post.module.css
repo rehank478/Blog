@@ -1,0 +1,46 @@
+.container{
+    margin: 20px;
+    background-color: #dddddd;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container h1{
+    cursor: pointer;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.container p{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    height: 150px;
+    font-size: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+   
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container p{
+        padding: 10px;
+        margin: 10px;
+        background-color: white;
+        height: 250px;
+    }
+}

@@ -1,0 +1,62 @@
+.Form{
+    display: block;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #2d7db9;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Form input{
+    font-size: 24px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Form button{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(95, 95, 235);
+    border-radius: 20px;
+    cursor: pointer;
+    color: cornsilk;
+    font-size: large;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.Form button:hover {background-color: #4a3ad8}
+
+.heading{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.heading h1{
+    font-family: 'Josefin Sans', cursive;
+}
+::placeholder {
+    color: grey;
+    text-align: center;
+  }
+
+  .Form h3{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Form h3:hover{
+    color: blanchedalmond;
+}
+
+.heading p{
+    margin-top: 5px !important;
+    color: white;
+}
